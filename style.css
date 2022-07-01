@@ -1,0 +1,183 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  font-family: 'League Gothic', sans-serif;
+}
+
+#nav{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-between;
+}
+
+#logo{
+  display: flex;
+  color: red;
+  text-shadow: 0 0 20px red;
+  -webkit-text-stroke: 1px white;
+  margin-left: 15px;
+  font-size: 19px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#logo h2:hover{
+  transform: scale(1.1);
+  transition: .4s ease;
+}
+
+#enlaces{
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#enlaces a{
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
+
+#enlaces a:hover{
+  color: red;
+  text-shadow: 0 0 20px red;
+  -webkit-text-stroke: 1px white;
+  transition: .4s ease;
+}
+
+#header{
+  background-image: url('imagenes/background.jpg');
+  height: 345px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  display: inline-block;
+}
+
+#nombre{
+  color: white;
+  margin-top: 220px;
+  margin-left: 40px;
+  font-size: 40px;
+}
+
+#boton-ver{
+  margin-top: 5px;
+  margin-left: 40px;
+}
+
+#boton-ver button{
+  color: black;
+  background-color: white;
+  border: solid 1px white;
+  border-radius: 4px;
+  padding: 3px;
+  width: 60px;
+  height: 30px;
+  font-family: 'League Gothic', sans-serif;
+  font-size: 20px;
+  opacity: 70%;
+}
+
+#titulo-destacadas{
+  color: white;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+#titulo-mas-vistas{
+  color: white;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+#destacadas{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#mas-vistas{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+#destacadas div{
+  width: 148px;
+  height: 95px;
+  margin: 3px;
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+#mas-vistas div{
+  width: 148px;
+  height: 95px;
+  margin: 3px;
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+}
+
+#destacadas div:hover{
+  transform: scale(1.1);
+  transition: .4s ease all;
+}
+
+#mas-vistas div:hover{
+  transform: scale(1.1);
+  transition: .4s ease all;
+}
+
+#destacadas div img{
+  width: 148px;
+  height: 95px;
+  border-radius: 4px;
+}
+
+#destacadas div img:hover{
+  opacity: 60%;
+}
+
+#mas-vistas div img{
+  width: 148px;
+  height: 95px;
+  border-radius: 4px;
+}
+
+#mas-vistas div img:hover{
+  opacity: 60%;
+}
+
+#destacadas div h6{
+  color: white;
+  margin-top: 3px;
+  text-align: left;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+#mas-vistas div h6{
+  color: white;
+  margin-top: 3px;
+  text-align: left;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
