@@ -141,11 +141,13 @@ body{
 #destacadas div:hover{
   transform: scale(1.1);
   transition: .4s ease all;
+  cursor: pointer;
 }
 
 #mas-vistas div:hover{
   transform: scale(1.1);
   transition: .4s ease all;
+  cursor: pointer;
 }
 
 #destacadas div img{
